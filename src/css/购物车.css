@@ -1,0 +1,75 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+ul,li{list-style: none;}
+body{background: rgb(246,246,246);}
+.top{width: 1280px;background: rgb(50,50,50);overflow: hidden;}
+.top .logo{float: left;margin-left: 190px;}
+.top .logoright{float: right;margin-right: 200px;}
+/*----------------------------content1-------------------------*/
+.ding{margin-left: 200px;margin-top: 50px;font-size: 12px;color: rgb(89,89,89);display: none;}
+.ding span a{color: red;}
+.content1{width: 900px;margin: 0 auto;margin-top: 10px;}
+.content1 .tz{overflow: hidden;position: relative;margin-top: 80px;}
+.content1 .tz span{font-size: 24px;font-weight: bolder;color: rgb(89,89,89);float: left;margin-top: 25px;margin-left: 30px;}
+.content1 .tz img{float: left;margin-left: 120px;}
+.content1 .tz input{position: absolute;width: 200px;height: 35px;top: 65px;right: 260px;background: rgb(233,59,57);border: none;color: white;font-size: 14px;}
+.content1_one{width: 900px;}
+.content1_one table{width: 900px;}
+.content1_one table tr td img{width: 100px;}
+.content1_one tr{text-align: center;}
+.content1_one td{height: 30px;}
+.content1_one td input{text-align: center;width: 15px;}
+.content1_one td img{vertical-align: top;border: 1px solid darkgrey;}
+.content1_one tr:nth-child(2n) td,.content1_one tr:nth-child(2n) td a{background: rgb(253,240,239);color: rgb(53,53,53);font-size: 14px;padding: 20px 0;}
+.content1_one tr:nth-child(2n+1) td{background: rgb(236,236,236);color: rgb(169,169,169);font-size: 14px;padding: 10px 0;}
+.content1_one tr:nth-child(2n) td span{color: red;}
+.jiesuan{width: 900px;margin: 0 auto;margin-top: 20px;background: white;position: relative;}
+.jiesuan .once{padding-top: 20px;margin-left: 30px;}
+.jiesuan .once img{vertical-align: middle;margin-top: -3px;}
+.jiesuan .once a{font-size: 12px;color: rgb(153,153,153);}
+.jiesuan .twice{margin-top: 130px;padding-bottom: 30px;margin-left: 30px;}
+.jiesuan .twice input{border: 1px solid red;color: red;width: 100px;height: 30px;background: white;}
+.jiesuan .three{width: 300px;position: absolute;top: 20px;right: 30px;text-align: right;}
+.jiesuan .three p{font-size: 12px;color: rgb(53,53,53);margin-top: 10px;}
+.jiesuan .three p span{font-size: 36px;color: rgb(233,59,57);font-weight: bolder;}
+.jiesuan .three input{margin-top: 20px;width: 150px;height: 40px;border: none;background: rgb(233,59,57);color: white;}
+/*----------------------content2-----------------------*/
+.content2{width: 900px;margin: 0 auto;margin-top: 50px;background: white;}
+.content2 .content2_top{width: 900px;padding: 10px 5px;background: rgb(236,236,236);width: 890px;}
+.content2 .content2_bottom{margin-top: 20px;width: 900px;overflow: hidden;height: 207px;padding-bottom: 20px;}
+.content2 .content2_bottom ul{overflow: hidden;}
+.content2 .content2_bottom dl{float: left;width: 200px;margin-left: 20px;}
+.content2 .content2_bottom dd{width: 200px;font-size: 12px;color: rgb(169,169,169);text-align: center;}
+.content2 .content2_bottom dt{text-align: center;}
+.content2 .content2_bottom dt img{border: 1px solid darkgrey;}
+/*--------------------------------------------------------*/
+.content3{width: 900px;margin: 0 auto;margin-top: 50px;background: white;}
+.content3 .content3_top{width: 890px;margin: 0 auto;background: rgb(236,236,236);padding: 10px 5px;}
+.content3 .content3_bottom{overflow: hidden;padding: 20px 0; }
+.content3 .content3_bottom dl{float: left;width: 200px;margin-left: 20px;}
+.content3 .content3_bottom dt{text-align: center;}
+.content3 .content3_bottom dd{text-align: center;font-size: 12px;color: rgb(153,153,153);}
+/*------------------------------foot-------------------*/
+.foot{width: 1280px;overflow: hidden;margin-top: 50px;background: rgb(246,246,246);}
+.foot .foot_left{float: left;overflow: hidden;}
+.foot_left dl{float: left;margin-left: 50px;padding-top: 40px;}
+.foot_left .tu_1 dt{background: url(img/small_tips_bg04.png) no-repeat left 0 top 0;width: 60px;height: 60px;}
+.foot_left .tu_2 dt{background: url(img/small_tips_bg04.png) no-repeat left -90px top 0;width: 60px;height: 60px;}
+.foot_left .tu_3 dt{background: url(img/small_tips_bg04.png) no-repeat left -180px top 0;width: 60px;height: 60px;}
+.foot_left .tu_4 dt{background: url(img/small_tips_bg04.png) no-repeat left -270px top 0;width: 60px;height: 60px;}
+.foot_left .tu_5 dt{background: url(img/small_tips_bg04.png) no-repeat left -360px top 0;width: 60px;height: 60px;}
+.foot_left .tu_1 dt:hover{background: url(img/small_tips_bg04.png) no-repeat left 0 top -90px;width: 60px;height: 60px;}
+.foot_left .tu_2 dt:hover{background: url(img/small_tips_bg04.png) no-repeat left -90px top -90px;width: 60px;height: 60px;}
+.foot_left .tu_3 dt:hover{background: url(img/small_tips_bg04.png) no-repeat left -180px top -90px;width: 60px;height: 60px;}
+.foot_left .tu_4 dt:hover{background: url(img/small_tips_bg04.png) no-repeat left -270px top -90px;width: 60px;height: 60px;}
+.foot_left .tu_5 dt:hover{background: url(img/small_tips_bg04.png) no-repeat left -360px top -90px;width: 60px;height: 60px;}
+.foot_left dd a{font-size: 14px;color: rgb(169,169,169);}
+.foot_left dd a:hover{color: rgb(199,158,112)}
+.foot .foot_center{float: left;}
+.foot .foot_right{float: left;overflow: hidden;width: 250px;padding-top: 20px;}
+.foot .foot_right li{float: left;margin-left: 50px;margin-top: 10px;}
+.foot .foot_right li a{font-size: 12px;color: rgb(169,169,169);}
+.foot .foot_right li a:hover{color: rgb(89,89,89);}
+/*----------------------------footer--------------------*/
+.footer{width: 1280px;background: rgb(234,234,234);text-align: center;font-size: 12px;color: rgb(169,169,169);}
+.footer img{vertical-align: middle;}

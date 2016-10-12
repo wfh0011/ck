@@ -1,0 +1,149 @@
+/*------------------------top-----------------*/
+*{	margin: 0;padding: 0;}
+a{text-decoration: none;}
+img{border: none;}
+ul,li{	list-style: none;}
+.top a{color: rgb(153,153,153);}
+.top{width: 1000px;font-size: 14px;color: rgb(153,153,153);}
+.top .toplist{margin-left: 74%;width: 500px;}
+.top .toplist .lilist li{clear: both;margin-left: 16px;}
+.top .toplist .lilist{background: lightgrey;overflow:hidden;height: 0px;width: 120px;}
+.top .toplist li{float: left;margin-top: 10px;margin-left: 5px;}
+.top .toplist .kehu{width: 80px;border-bottom: none;}
+.top .toplist li a,.top .toplist li{font-size: 12px;}
+.top .toplist li a span{color: red;}
+
+/*------------------------head---------------------*/
+.logo{position: absolute;left: 40px;top: 20px;}
+.ma{position: absolute;right: 60px;top: 50px;}
+.select{position: absolute;left: 30px;top: 145px;z-index: 1;height: 36px;overflow: hidden;}
+.select li{padding: 8px 30px;}
+.select li:nth-child(2n){background: rgb(70,59,127);}
+.select li:nth-child(2n+1){background: rgb(56,47,107);}
+.select li span{margin-top: 50px;}
+.select li p{margin-bottom: 10px;}
+.select li a,.select li p a{color: white;font-size: 14px;font-family: "微软雅黑";}
+.select li span a{color: rgb(204,204,204);font-size: 12px;font-family: "微软雅黑";}
+.scanrf{width: 1000px;padding-left: 340px;padding-top: 65px;}
+.scanrf .inp1{width: 400px;height: 30px;border:2px solid darkslateblue;}
+.scanrf .inp2{width: 80px;height: 34px;border: none;background: darkslateblue;color: white;margin-left: -10px;}
+.topfoot{width: 850px;height: 30px;margin-left: 325px;margin-top: 10px;}
+.topfoot li{height: 30px;float: left;font-size: 14px;text-align: center;line-height: 30px;margin-left: 15px;}
+.topfoot li a{color: rgb(153,153,153);font-size: 12px;}
+/*------------------------nav-------------------------*/
+.nav{width: 600px;height: 30px;margin: 0 auto;margin-top: 10px;}
+.nav li{height: 30px;float: left;margin-left: 10px;line-height: 30px;}
+.nav li a{color: black;font-size: 14px;font-family: "微软雅黑";}
+/*--------------------------------------content--------------------------------*/
+.content{background: rgb(203,203,203);padding-top: 1px;}
+.content .pp{margin-top: 30px;margin-left: 40px;font-size: 12px;margin-bottom: 30px;}
+.content .pp a{color: rgb(64,64,64);}
+.content .content1{width: 1200px;background: white;margin: 0 auto;overflow: hidden;}
+.content .content1 .content1_left{border: 1px dashed darkgrey;float: left;margin-left: 30px;margin-top: 30px;margin-bottom: 30px;}
+.content .content1 .content1_left img{width: 350px;}
+.content .content1 .content1_right{float: left;margin-left: 30px;margin-top: 30px;}
+.content .content1 .content1_right .tb{margin-left: 30px;font-size: 18px;color: rgb(52,52,52);padding-bottom: 20px;border-bottom: 1px dashed darkgrey;margin-top: 0;}
+.content .content1 .content1_right p{margin-left: 30px;margin-top: 15px;color: rgb(112,112,112);}
+.content .content1 .content1_right p span{margin-left: 100px;color: rgb(112,112,112);}
+.content .content1 .content1_right p .bd{margin-left: 36px;}
+.content .content1 .content1_right p .sd{margin-left: -47px;}
+.content .content1 .content1_right p .dd{margin-left: 53px;font-size: 36px;color: orangered;}
+.content .content1 .content1_right .ip input{width: 14px;text-align: center;}
+.content .content1 .content1_right .hd{padding-bottom: 30px;border-bottom: 1px dashed darkgrey;}
+.content .content1 .content1_right p .jian{width: 20px;height: 20px;background: lightgrey;border: none;}
+.content .content1 .content1_right p .jia{width: 20px;height: 20px;background: lightgrey;border: none;}
+.content .content1 .content1_right .qg{width: 160px;height: 45px;margin-left: 30px;margin-top: 30px;border: none;background: #FF0000;font-size: 18px;color: white;}
+.content .content1 .content1_right .jr{width: 160px;height: 45px;margin-left: 30px;margin-top: 30px;border: 3px solid red;background: white;color: red;font-size: 18px;}
+/*--------------------------------content2-------------------------------------*/
+.content2{width: 1200px;margin: 0 auto;margin-top: 50px;overflow: hidden;}
+.content2 .f1,.content2 .f2,.content2 .f3,.content2 .f4{float: left;width: 200px;}
+.content2 .f1 ul,.content2 .f3 ul,.content2 .f4 ul{background: white;}
+.content2 .f1 ul li,.content2 .f3 ul li,.content2 .f4 ul li{width: 200px;overflow: hidden;text-align: center;margin-bottom: 30px;}
+.content2 .f1 ul li a span,.content2 .f3 ul li a span,.content2 .f4 ul li a span{font-size: 12px;color: rgb(112,112,112);width: 100px;display: block;float: left;margin-left: 10px;}
+.content2 .f1 ul li img,.content2 .f3 ul li img,.content2 .f4 ul li img{float: left;margin-left: 10px;}
+.content2 .f2{width: 950px;background: white;margin-left: 50px;padding-bottom: 30px;}
+.content2 div ul .wy{background: black;padding: 15px 0;color: white;}
+.content2 .f2 li{float: left;width: 189px;background: black;margin-left: 1px;padding: 12px 0;margin-bottom: 30px;text-align: center;}
+.content2 .f2 li a{color: white;}
+.content2 .f2 .fs{background: #483D8B;}
+.content2 .f2 .las{background: #FF0000;}
+.content2 .f2 h3{margin-top: 30px;color: rgb(52,52,52);margin-left: 2%;}
+.content2 .f2 img{margin-left: 2%;}
+.content2 .f2 td{width: 215px;font-size: 12px;margin-left: 2px;background: rgb(242,242,242);padding: 10px 0;color: rgb(64,64,64);}
+.content2 .f2 table{margin-left: 35px;margin-top: 30px;}
+.content2 .f2 .fo{overflow: hidden;}
+.content2 .f2 .left,.content2 .f2 .rightt{float: left;margin-left: 30px;margin-top: 30px;}
+.content2 .f2 .left{width: 320px;height: 240px;}
+.content2 .f2 .rightt{width: 550px;background: rgb(233,233,233);height: 240px;margin-left: 0;font-size: 12px;}
+.content2 .f2 .rightt h2{font-size: 24px;margin-top: 50px;text-align: center;margin-bottom: 30px;font-weight: bolder;color: rgb(75,75,75);}
+.content2 .f2 .rightt p{margin: 0 25px;color: rgb(89,89,89);}
+.content2 .f2 .ht{margin-left: 2%;}
+.content2 .f2 .xq{width: 950px;margin-top: 30px;text-align: center;font-weight: bolder;}
+.content2 .f2 .xq span{color: red;}
+.content2 .f2 .xq .blue{color: blue;}
+.content2 .f2 .tu1{margin-top: 30px;width: 950px;}
+.content2 .f3{margin-top: -4350px;}
+.content2 .tou{margin-left: 250px;width: 500px;overflow: hidden;padding-top: 50px;}
+.content2 .tou li{background: black;float: left;width: 230px;margin-right: 1px;padding: 12px 0;text-align: center;color: white;}
+.content2 .tou .onee{background: #483D8B;}
+/*----------------------------------------------------------*/
+.content2 .pj{width: 950px;background: white;margin-left: 250px;}
+.content2 .pj ul{overflow: hidden;margin-left: 35px;padding-top: 50px;}
+.content2 .pj ul li{float: left;margin-left: 10px;}
+.content2 .pj ul .one1{color: rgb(169,169,169);margin-top: 5px;}
+.content2 .pj ul .one2{height: 30px;margin-left: 20px;overflow: hidden;}
+.content2 .pj ul .one2 img{vertical-align: top;margin-top: 3px;}
+.content2 .pj ul .one2 span{margin-left: 15px;color: red;}
+.content2 .pj ul .one2 span i{font-style: normal;font-weight: bolder;font-size: 24px;}
+.content2 .pj ul .one3{margin-top: -33px;border-bottom: 1px dashed darkgrey;padding-bottom: 20px;}
+.content2 .pj ul .one3 input{margin-left: 800px;border:none;border: 2px solid red;color: red;background: white;padding: 5px 8px;}
+.content2 .pj .ex{margin-left: 30px;margin-top: 20px;overflow: hidden;}
+.content2 .pj .ex li{float: left;margin-left: 15px;}
+.content2 .pj .ex li a{font-size: 12px;color: rgb(153,153,153);}
+.content2 .pj .ex .byy a{color: red;}
+.content2 .pj dl{margin-left: 45px;margin-top: 20px;overflow: hidden;}
+.content2 .pj dl dt,.content2 .pj dl dd{float: left;}
+.content2 .pj dl dt span{margin-left: 10px;color: rgb(153,153,153);font-size: 12px;}
+.content2 .pj dl dd{margin-left: 45px;margin-top: 20px;}
+.content2 .pj dl dd div{height: 20px;overflow: hidden;}
+.content2 .pj dl dd div img{vertical-align: top;}
+.content2 .pj dl dd div i{margin-left: 5px;font-style: normal;color: red;}
+.content2 .pj dl dd div span{margin-left: 400px;font-size: 12px;color: rgb(153,153,153);}
+.content2 .pj dl dd p{font-size: 12px;color: rgb(153,153,153);margin-top: 20px;border-top: 1px dashed darkgrey;padding-top: 20px;}
+.content2 .pj dl dd .du{margin-left: 680px;}
+/*--------------------------------------------------------*/
+.content2 .zhl{margin-left: 250px;margin-top: 30px;overflow: hidden;margin-bottom: 100px;}
+.content2 .zhl li{float: left;margin-left: 30px;margin-top: 10px;font-size: 12px;color: rgb(89,89,89);}
+.content2 .zhl li a{font-size: 12px;color: rgb(89,89,89);}
+/*------------------------foot----------------------------*/
+
+/*------------------------foothead----------------------------*/
+.foothead{position: relative;overflow: hidden;}
+.foothead ul{float: left;margin-top: 100px;margin-left: 100px;}
+.foothead .nmove{margin-left: 50px;}
+.foothead ul li{font-size: 12px;margin-top: 10px;}
+.foothead ul li a{color: rgb(169,169,169);}
+.foothead ul h5{margin-bottom: 20px;}
+.foothead .tiyan{position: relative;width: 350px;}
+.foothead .tiyan p{position: absolute;top: 30px;font-size: 12px;line-height: 18px;z-index: 1;font-family: "微软雅黑";}
+.foothead .tiyan div{margin-top: 57px;width: 100px;height: 100px;margin-left: -10px;}
+.foothead .tiyan div li{float: left;margin-left: 10px;}
+.foothead span{position: absolute;right: -150px;top: -30px;}
+/*------------------------footmiddle----------------------------*/
+.footmiddle{width: 1350px;background: rgb(70,59,127);overflow: hidden;margin-top: 50px;}
+.footmiddle li{float: left;margin-left: 120px;padding: 10px 0;}
+.footmiddle li img{vertical-align: middle;}
+.footmiddle li span{margin-left: 10px;color: white;}
+/*------------------------footbottom----------------------------*/
+.footbottom{margin-top: 50px;margin-left: 20px;position: relative;}
+.footbottom div li{float: left;margin-left: 20px;}
+.footbottom div li a{font-size: 12px;color: rgb(169,169,169);}
+.footbottom p,.footbottom p a{font-size: 12px;float: left;margin-left: 20px;margin-top: 10px;color: rgb(169,169,169);}
+.footbottom p img{vertical-align: middle;}
+.footbottom p a span{margin-top: -30px;}
+.footbottom .pcf{margin-top: -2px;}
+.footbottom ul li{float: left;margin-left: 20px;}
+.footbottom ul li a{font-size: 12px;color: rgb(169,169,169);}
+.footbottom span{font-size: 12px;color: rgb(169,169,169);margin-left: 20px;}
+.footbottom .tu{margin-top: 20px;padding-bottom: 30px;}
+.footbottom .erma{position: absolute;right: 20px;top: 20px;}

@@ -1,0 +1,182 @@
+/*------------------------top-----------------*/
+*{	margin: 0;padding: 0;}
+a{text-decoration: none;}
+img{border: none;}
+ul,li{	list-style: none;}
+.top a{color: rgb(153,153,153);}
+.top{width: 1000px;font-size: 14px;color: rgb(153,153,153);padding-bottom: 50px;}
+.top .toplist{margin-left: 74%;width: 1000px;}
+.top .toplist .lilist li{clear: both;margin-left: 16px;color: rgb(153,153,153);}
+.top .toplist .lilist li:hover{color: rgb(153,153,153);}
+.top .toplist .lilist{background: rgb(242,242,242);overflow:hidden;height: 0px;width: 120px;}
+.top .toplist li{float: left;margin-top: 10px;margin-left: 5px;}
+.top .toplist li:hover,.top .toplist li a:hover{color: blue;}
+.top .toplist .kehu{width: 80px;border-bottom: none;}
+.top .toplist li a,.top .toplist li{font-size: 12px;}
+
+/*------------------------head---------------------*/
+.logo{position: absolute;left: 40px;top: 50px;}
+.ma{position: absolute;right: 60px;top: 50px;}
+.select{position: absolute;left: 30px;top: 195px;z-index: 1;}
+.select li{padding: 8px 30px;}
+.select li:nth-child(2n){background: rgb(70,59,127);}
+.select li:nth-child(2n+1){background: rgb(56,47,107);}
+.select li span{margin-top: 50px;}
+.select li p{margin-bottom: 10px;}
+.select li a,.select li p a{color: white;font-size: 14px;font-family: "微软雅黑";}
+.select li span a{color: rgb(204,204,204);font-size: 12px;font-family: "微软雅黑";}
+/*-------------------------------------------------*/
+.select .select1 li,.select .select1{background: white;}
+.select .select1 li a{color: rgb(64,64,64);}
+/*.select .select1{border-bottom: 1px solid red;}*/
+.select .select1{padding-bottom: 50px;display: none;}
+.select .select1 .bdd{margin-top: 0;}
+.select .select1 div{margin-top: 50px;}
+.select .select1 input{margin-top: 50px;}
+.select .select1 input:hover{opacity: 0.8;}
+.select .select1 .input1{position: absolute;left: 50px;bottom: 10px;border: none;height: 30px;color: white;background: rgb(70,59,127);width: 150px;}
+.select .select1 .input2{position: absolute;left: 230px;bottom: 10px;border: none;height: 30px;color: white;background: rgb(70,59,127);width: 150px;}
+.select .select1 p{color: rgb(70,59,127);font-weight: bolder;font-size: 14px;margin-left: 10px;padding: 10px 0;}
+.select .select1 li{float: left;padding: 0 10px;font-size: 12px;}
+.select .select1 li a:hover{color: red;text-decoration: underline;}
+.select .select1 li span{margin-left: 20px;}
+.select .select1{position: absolute;left: 203px;z-index: 1000;top: 35px;width: 500px;overflow: hidden;}
+/*--------------------------------------------------*/
+.scanrf{width: 1000px;padding-left: 340px;padding-top: 65px;}
+.scanrf .inp1{width: 400px;height: 30px;border:2px solid darkslateblue;}
+.scanrf .inp2{width: 80px;height: 34px;border: none;background: darkslateblue;color: white;margin-left: -10px;}
+.topfoot{width: 650px;height: 30px;margin-left: 325px;margin-top: 10px;}
+.topfoot li{height: 30px;float: left;font-size: 14px;text-align: center;line-height: 30px;margin-left: 15px;}
+.topfoot li:hover{text-decoration: underline;color: red;}
+.topfoot li a{color: rgb(153,153,153);}
+.topfoot li a:hover{color: red;}
+/*------------------------nav-------------------------*/
+.nav{width: 600px;height: 30px;margin: 0 auto;margin-top: 10px;}
+.nav li{height: 30px;float: left;margin-left: 10px;line-height: 30px;}
+.nav li a{color: black;font-size: 14px;font-family: "微软雅黑";}
+.nav li a:hover{color: dodgerblue;}
+/*-------------------------carousel----------------------*/
+.carousel{width: 1350px;height: 400px;position: relative;}
+.carousel ul{width: 1350px;height: 400px;position: absolute;overflow: hidden;}
+.carousel ul li{width: 1350px;height: 400px;float: left;position: relative;}
+.carousel ul li .img1_1,.carousel ul li .img1_2,.carousel ul li .img1_3,.carousel ul li .img1_4{position: absolute;left: 890px;top: 0;}
+.carousel ul li .img1_1 img{height: 400px;}
+.carousel ul li .img1_1,.carousel ul li .img1_2,.carousel ul li .img1_3,.carousel ul li .img1_4{float: left;}
+.carousel ul li .img1_2{background:rgb(111,11,13) ;}
+.carousel ul li .img1_3{background: rgb(237,238,242);}
+.carousel ul li .img1_4{background: rgb(163,23,22);}
+.dw{width: 1280px;margin-top: 30px;overflow: hidden;border: 1px solid lightgrey;display: none;z-index: 3;}
+.dw .dw1{float: left;font-size: 36px;color: rgb(70,59,127);margin-left: 50px;}
+.dw .dw2{float: left;margin-top: 3px;margin-left: 150px;}
+.dw .dw2 .inp3{width: 650px;height: 30px;border:2px solid darkslateblue;}
+.dw .dw2 .inp4{width: 80px;height: 34px;border: none;background: darkslateblue;color: white;margin-left: -10px;}
+/*---------------------------navfoot----------------------------*/
+.navfoot li{float: left;margin-left: 10px;}
+.navfoot{margin-left: 240px;margin-top: 10px;overflow: hidden;}
+.contenttop{width: 600px;height: 100px;margin: 0 auto;text-align: center;margin-top: 50px;}
+.contenttop h3{margin-top: 10px;}
+.contenttop h3 a{color: black;}
+.contenttop img{margin-left: 10px;vertical-align: middle;}
+.contenttop span{/*margin-left: 25px ;*/color: rgb(153,153,153);font-size: 12px;}
+/*--------------------------content1------------------------*/
+.content1{width:1350px ;margin-left: 20px;margin-top: 30px;overflow: hidden;}
+.content1 div{float: left;margin-left: 20px;}
+.content1 .you{width: 180px;}
+.you h4{margin-left: 80px;font-size: 12px;margin-bottom: 10px;}
+.you dt{border: 1px solid black;margin-bottom: 20px;}
+.you dd{margin-bottom: 30px;font-size: 12px;text-align: center;}
+.you dd a,.you h4 a{color: rgb(153,153,153);}
+.content1 .chan{width: 950px;margin-top: -270px;}
+.content1 .chan dl{float: left;margin-left: 30px;width: 160px;}
+.content1 .chan dd{margin-top: 10px;font-size: 14px;}
+.content1 .chan dd a{font-size: 12px;color: rgb(153,153,153);text-align: center;}
+.content1 .chan dd img{margin-right: 10px;vertical-align: middle;}
+/*--------------------------content2------------------------*/
+.content2top{margin: 0 auto;width: 200px;margin-top: 50px;}
+.content2top h3{margin-bottom: 10px;}
+.content2top h3 a{color: black;}
+.content2{width: 1350px;margin-left: 20px;margin-top: 30px;overflow: hidden;}
+.content2 div{float: left;margin-left: 20px;margin-top: 26px;}
+.content2 h4{position: absolute;right: 55px;}
+.content2 h4 a{font-size: 12px;color: black;}
+.content2 .shangou{border: 5px dotted black;border-left:none;margin-top: -192px;padding: 35px;height: 328px;}
+.content2 .shangou dt{margin-bottom: 20px;vertical-align: middle;}
+.content2 .shangou dd{text-align: center;}
+.content2 .shangou dd a{color: black;}
+/*--------------------------content2foot------------------------*/
+.content2foot{width: 1350px;}
+.content2foot dl{float: left;margin-left: 17px;}
+.content2foot dt{border:1px solid rgb(153,153,153) ;}
+.content2foot dd a{color: rgb(153,153,153);font-size: 14px;}
+.content2foot dd{text-align: center;margin-top: 5px;}
+/*--------------------------content3------------------------*/
+.content3top{margin: 0 auto;width: 200px;margin-top: 50px;}
+.content3top h3{margin-bottom: 10px;}
+.content3top h3 a{color: black;}
+.content3{width: 1350px;margin-left: 20px;margin-top: 30px;overflow: hidden;}
+.content3 div{float: left;margin-left: 20px;}
+.content3 .active p{margin-top: 10px;font-family: "微软雅黑";margin-left: 12px;}
+.content3 .active li{margin:20px 10px;}
+.content3 .active li a{color: black;font-size: 14px;font-family: "微软雅黑";}
+.content3 .active{background: rgb(242,242,240);}
+.content3 .paimai{margin-top: 30px;}
+.content3 .paimai p a{color: black;}
+.content3 .paimai p{margin: 10px 0;}
+.content3 .paimai span{font-size: 12px;color: rgb(153,153,153);margin-left: 70px;}
+.content3 .paimai a{margin-left: 70px;}
+.content4top{margin: 0 auto;width: 200px;margin-top: 50px;}
+.content4top h3{margin-bottom: 10px;}
+.content4top h3 a{color: black;}
+/*-------------------------------content4--------------------*/
+.divlist{margin-left: 30px;margin-top: 50px;}
+.divlist li{float: left;margin-left: 10px;}
+.divlist li a{color: rgb(169,169,169);}
+.divlist .one a{color: black;}
+.divlist h4{margin-right: 20px;margin-left: 92%;}
+.divlist h4 a{font-size: 14px;color: rgb(153,153,153);}
+.ulist{width: 1210px;height: 329px;margin-left: 40px;margin-top: 10px;}
+.ulist li{float: left;border: 1px solid rgb(202,202,202);position: relative;}
+.ulist li a div{position: absolute;left: 30px;top: 30px;}
+.ulist li a div h3{color:black;font-size: 16px;}
+.ulist li a div h4{color: rgb(169,169,169);font-size: 12px;}
+.ulist .first a div{position: absolute;top: 240px;left: 120px;background: white;padding: 30px;}
+.ulist .first a div h3{font-size: 20px;}
+/*------------------------foot----------------------------*/
+.foottop{margin: 0 auto;width: 200px;margin-top: 50px;}
+.carousel2{margin-left: 40px;margin-top: 50px;}
+/*------------------------foothead----------------------------*/
+.foothead{position: relative;overflow: hidden;}
+.foothead ul{float: left;margin-top: 100px;margin-left: 100px;}
+.foothead .nmove{margin-left: 50px;}
+.foothead ul li{font-size: 12px;margin-top: 10px;}
+.foothead ul li a{color: rgb(169,169,169);}
+.foothead ul h5{margin-bottom: 20px;}
+.foothead .tiyan{position: relative;width: 350px;}
+.foothead .tiyan p{position: absolute;top: 30px;font-size: 12px;line-height: 18px;z-index: 1;font-family: "微软雅黑";}
+.foothead .tiyan div{margin-top: 57px;width: 100px;height: 100px;margin-left: -10px;}
+.foothead .tiyan div li{float: left;margin-left: 10px;}
+.foothead span{position: absolute;right: -150px;top: -30px;}
+/*------------------------footmiddle----------------------------*/
+.footmiddle{width: 1350px;background: rgb(70,59,127);overflow: hidden;margin-top: 50px;}
+.footmiddle li{float: left;margin-left: 120px;padding: 10px 0;}
+.footmiddle li img{vertical-align: middle;}
+.footmiddle li span{margin-left: 10px;color: white;}
+/*------------------------footbottom----------------------------*/
+.footbottom{margin-top: 50px;margin-left: 20px;position: relative;}
+.footbottom div li{float: left;margin-left: 20px;}
+.footbottom div li a{font-size: 12px;color: rgb(169,169,169);}
+.footbottom p,.footbottom p a{font-size: 12px;float: left;margin-left: 20px;margin-top: 10px;color: rgb(169,169,169);}
+.footbottom p img{vertical-align: middle;}
+.footbottom p a span{margin-top: -30px;}
+.footbottom .pcf{margin-top: -2px;}
+.footbottom ul li{float: left;margin-left: 20px;}
+.footbottom ul li a{font-size: 12px;color: rgb(169,169,169);}
+.footbottom span{font-size: 12px;color: rgb(169,169,169);margin-left: 20px;}
+.footbottom .tu{margin-top: 20px;padding-bottom: 30px;}
+.footbottom .erma{position: absolute;right: 20px;top: 20px;}
+/*-------------------------------louti---------------------*/
+.louti{width: 50px;background: lightgrey;text-align: center;padding: 20px 0;position: fixed;top: 200px;right: 20px;opacity: 0.6;display: none;}
+.louti li{width: 50px;margin-top: 10px;height: 30px;line-height: 30px;}
+.louti li a{font-size: 12px;color: rgb(89,89,89);}
+.louti .yshi{color: red;};
+.louti .dy{border-bottom: 3px solid red;}

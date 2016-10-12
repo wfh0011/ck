@@ -1,0 +1,75 @@
+/*------------------------top-----------------*/
+*{	margin: 0;padding: 0;}
+a{text-decoration: none;}
+img{border: none;}
+ul,li{	list-style: none;}
+.content .active{background: lightgrey;border: 1px solid lightgrey;}
+.top a{color: rgb(153,153,153);}
+.top{width: 1000px;font-size: 14px;color: rgb(153,153,153);}
+.top .toplist{margin-left: 74%;width: 500px;}
+.top .toplist .lilist li{clear: both;margin-left: 16px;}
+.top .toplist .lilist{background: lightgrey;overflow:hidden;height: 0px;width: 120px;}
+.top .toplist li{float: left;margin-top: 10px;margin-left: 5px;}
+.top .toplist li:hover,.top .toplist li a:hover{color: blue;}
+.top .toplist .kehu{width: 80px;border-bottom: none;}
+.top .toplist li a,.top .toplist li{font-size: 12px;}
+.nav li a:hover{color: dodgerblue;}
+.topfoot li:hover{text-decoration: underline;color: red;}
+.topfoot li a:hover{color: red;}
+/*------------------------head---------------------*/
+.logo{position: absolute;left: 40px;top: 20px;}
+.ma{position: absolute;right: 60px;top: 50px;}
+.select{position: absolute;left: 30px;top: 145px;z-index: 1;height: 36px;overflow: hidden;}
+.select li{padding: 8px 30px;}
+.select li:nth-child(2n){background: rgb(70,59,127);}
+.select li:nth-child(2n+1){background: rgb(56,47,107);}
+.select li span{margin-top: 50px;}
+.select li p{margin-bottom: 10px;}
+.select li a,.select li p a{color: white;font-size: 14px;font-family: "微软雅黑";}
+.select li span a{color: rgb(204,204,204);font-size: 12px;font-family: "微软雅黑";}
+.scanrf{width: 1000px;padding-left: 340px;padding-top: 65px;}
+.scanrf .inp1{width: 400px;height: 30px;border:2px solid darkslateblue;}
+.scanrf .inp2{width: 80px;height: 34px;border: none;background: darkslateblue;color: white;margin-left: -10px;}
+.topfoot{width: 850px;height: 30px;margin-left: 325px;margin-top: 10px;}
+.topfoot li{height: 30px;float: left;font-size: 14px;text-align: center;line-height: 30px;margin-left: 15px;}
+.topfoot li a{color: rgb(153,153,153);font-size: 12px;}
+/*------------------------nav-------------------------*/
+.nav{width: 600px;height: 30px;margin: 0 auto;margin-top: 10px;}
+.nav li{height: 30px;float: left;margin-left: 10px;line-height: 30px;}
+.nav li a{color: black;font-size: 14px;font-family: "微软雅黑";}
+/*------------------------content-------------------------*/
+.lq{margin-left: 43%;margin-top: 50px;}
+.content{overflow: hidden;margin-top: 30px;width: 1280px;}
+.content li{float: left;width: 200px;margin-left: 50px;height: 350px;margin-top: 10px;border: 1px solid white;}
+.content li p{margin-top: 40px;color: rgb(169,169,169);font-size: 14px;}
+.content li span{color: grey;font-weight:bolder;}
+/*------------------------foothead----------------------------*/
+.foothead{position: relative;overflow: hidden;}
+.foothead ul{float: left;margin-top: 100px;margin-left: 100px;}
+.foothead .nmove{margin-left: 50px;}
+.foothead ul li{font-size: 12px;margin-top: 10px;}
+.foothead ul li a{color: rgb(169,169,169);}
+.foothead ul h5{margin-bottom: 20px;}
+.foothead .tiyan{position: relative;width: 350px;}
+.foothead .tiyan p{position: absolute;top: 30px;font-size: 12px;line-height: 18px;z-index: 1;font-family: "微软雅黑";}
+.foothead .tiyan div{margin-top: 57px;width: 100px;height: 100px;margin-left: -10px;}
+.foothead .tiyan div li{float: left;margin-left: 10px;}
+.foothead span{position: absolute;right: -150px;top: -30px;}
+/*------------------------footmiddle----------------------------*/
+.footmiddle{width: 1350px;background: rgb(70,59,127);overflow: hidden;margin-top: 50px;}
+.footmiddle li{float: left;margin-left: 120px;padding: 10px 0;}
+.footmiddle li img{vertical-align: middle;}
+.footmiddle li span{margin-left: 10px;color: white;}
+/*------------------------footbottom----------------------------*/
+.footbottom{margin-top: 50px;margin-left: 20px;position: relative;}
+.footbottom div li{float: left;margin-left: 20px;}
+.footbottom div li a{font-size: 12px;color: rgb(169,169,169);}
+.footbottom p,.footbottom p a{font-size: 12px;float: left;margin-left: 20px;margin-top: 10px;color: rgb(169,169,169);}
+.footbottom p img{vertical-align: middle;}
+.footbottom p a span{margin-top: -30px;}
+.footbottom .pcf{margin-top: -2px;}
+.footbottom ul li{float: left;margin-left: 20px;}
+.footbottom ul li a{font-size: 12px;color: rgb(169,169,169);}
+.footbottom span{font-size: 12px;color: rgb(169,169,169);margin-left: 20px;}
+.footbottom .tu{margin-top: 20px;padding-bottom: 30px;}
+.footbottom .erma{position: absolute;right: 20px;top: 20px;}
